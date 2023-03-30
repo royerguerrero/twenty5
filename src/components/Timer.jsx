@@ -1,3 +1,5 @@
+import "../assets/components/Timer.css"
+
 const Timer = () => {
   return (
     <div className="timer">

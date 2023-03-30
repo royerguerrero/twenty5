@@ -1,0 +1,17 @@
+.timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer__content {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.timer__clock {
+  display: flex;
+  gap: 8px;
+}

@@ -4,3 +4,9 @@
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
 }
+
+:root {
+  --gray: #707070;
+  --orange: #FB7A20;
+  --cool-shadow: 0px 0px 80px 10px rgba(102, 102, 102, 0.09);
+}

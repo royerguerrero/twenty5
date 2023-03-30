@@ -1,0 +1,85 @@
+.recommended-song__heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.035em;
+  color: var(--gray);
+}
+
+.recommended-song__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 140px;
+  padding-bottom: 8px;
+}
+
+
+.recommended-song__platforms {
+  display: flex;
+  gap: 16px;
+}
+
+.recommended-song__platform-link {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14.3316px;
+  line-height: 17px;
+  letter-spacing: -0.035em;
+  color: var(--gray);
+  transition: 400ms all;
+}
+
+
+.recommended-song__platform-link:hover {
+  color: var(--orange);
+}
+
+.recommended-song__card {
+  box-shadow: var(--cool-shadow);
+  border-radius: 8px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.recommended-song__cover-wrapper {
+  width: 69px;
+  height: 69px;
+  border: 8px;
+  box-shadow: var(--cool-shadow);
+}
+
+
+.recommended-song__name {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: -0.075em;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.recommended-song__is-explicit {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.035em;
+  color: white;
+  background: black;
+  padding: 0px 5px;
+  border-radius: 4px;
+}
+
+.recommended-song__artist {
+  color: var(--gray);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.035em;
+}

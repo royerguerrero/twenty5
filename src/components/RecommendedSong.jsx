@@ -1,15 +1,27 @@
+import '../assets/components/RecommendedSong.css'
+
 const RecommendedSong = () => {
   return (
     <div className="recommended-song">
-      <h2 className="recommended-song__heading">recommended song</h2>
-      <div className="recommended-song__platforms">
-        <a href="">Spotify</a>
-        <a href="">Apple Music</a>
+      <div className="recommended-song__header">
+        <h2 className="recommended-song__heading">recommended song</h2>
+        <div className="recommended-song__platforms">
+          <a className="recommended-song__platform-link" href="">Spotify</a>
+          <a className="recommended-song__platform-link" href="">Apple Music</a>
+        </div>
       </div>
       <div className="recommended-song__card">
-        <img className="recommended-song__cover" src="" alt="" />
-        <h3>Slow Jamz</h3><span>E</span>
-        <h4>Kanye West, Twista, Jamie Foxx</h4>
+        <div className="recommended-song__cover-wrapper">
+          <img className="recommended-song__cover" src="" alt="" />
+        </div>
+        <div className="recommended-song__information">
+          <h3 className="recommended-song__name">
+            Slow Jamz<span className="recommended-song__is-explicit">E</span>
+          </h3>
+          <h4 className="recommended-song__artist">
+            Kanye West, Twista, Jamie Foxx
+          </h4>
+        </div>
       </div>
     </div>
   )
