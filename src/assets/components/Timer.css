@@ -15,3 +15,56 @@
   display: flex;
   gap: 8px;
 }
+
+.clock__hand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clock__splitter {
+  font-weight: 400;
+  font-size: 178.759px;
+  line-height: 216px;
+  letter-spacing: -0.075em;
+}
+
+.hand__caption {
+  color: var(--gray);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.035em;
+}
+
+.hand__dial {
+  font-weight: 400;
+  font-size: 170px;
+  line-height: 216px;
+  letter-spacing: -0.075em;
+}
+
+.timer-controls {
+  display: flex;
+  gap: 18px;
+}
+
+.controls__button {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: -0.075em;
+  padding: 8px 60px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  animation: 400ms all;
+}
+
+.controls-button--deactivate {
+  background-color: var(--light-gray);
+  color: var(--gray);
+  cursor: not-allowed;
+}
